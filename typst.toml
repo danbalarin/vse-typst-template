@@ -1,0 +1,12 @@
+[package]
+name = "vse-diploma-thesis"
+version = "0.1.0"
+entrypoint = "template/lib.typ"
+authors = ["Dan Balarin <danbalarin.dev>"]
+license = "MIT-0"
+description = "Template for Diploma Thesis in University of Economics in Prague"
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
