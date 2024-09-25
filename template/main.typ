@@ -1,4 +1,4 @@
-#import "template/lib.typ": template, revisit
+#import "/lib/lib.typ": template, revisit
 
 
 #show: template.with(
@@ -9,6 +9,7 @@
   keywords-en: [keywords],
   abstract-cs: [Abstrakt],
   keywords-cs: [keywords],
+  bibliography-file: "/template/bibliography.bib",
 )
 
 = Introduction

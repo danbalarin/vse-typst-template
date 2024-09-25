@@ -39,6 +39,8 @@
 
   separated-abstracts: false,
 
+  bibliography-file: none,
+
   body,
 ) = {
   set document(title: title, author: author)
@@ -115,5 +117,7 @@
 
   body
 
-  bibliography("/bibliography.bib", style: "american-psychological-association")
+  if bibliography != none [
+    #bibliography(bibliography-file, style: "american-psychological-association")
+  ]
 }

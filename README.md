@@ -48,6 +48,9 @@
 
   // If set to true, cs and en abstracts and keywords will be on separate pages
   separated-abstracts: false,
+
+  // path to the bibliography file
+  bibliography-file: "/template/bibliography.bib",
 )
 ```
 
