@@ -1,5 +1,4 @@
-#import "/lib/lib.typ": template, revisit
-
+#import "https://github.com/danbalarin/vse-typst-template/modern-unito-thesis:0.1.0": template, revisit
 
 #show: template.with(
   title: "Thesis Title",

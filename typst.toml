@@ -1,10 +1,11 @@
 [package]
 name = "vse-diploma-thesis"
 version = "0.1.0"
-entrypoint = "template/lib.typ"
+entrypoint = "lib/lib.typ"
 authors = ["Dan Balarin <danbalarin.dev>"]
 license = "MIT-0"
 description = "Template for Diploma Thesis in University of Economics in Prague"
+categories = ["thesis"]
 
 [template]
 path = "template"
